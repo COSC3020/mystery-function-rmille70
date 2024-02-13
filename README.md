@@ -4,6 +4,7 @@
 What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
 
+Answer: It returns the greatest item in the array.
 ```javascript
 function mystery(a) {
     if(a.length == 1) return a[0];
