@@ -4,7 +4,11 @@
 What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
 
-Answer: It returns the greatest item in the array.
+Answer: It returns the greatest item recursively by going all the way down
+to the base case (when a.length is equal to 1), and then as it returns, it 
+compompares to the largest item in those sublists until we have the largest 
+item in the list.
+
 ```javascript
 function mystery(a) {
     if(a.length == 1) return a[0];
